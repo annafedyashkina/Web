@@ -1,0 +1,160 @@
+<html>
+<style>
+.text-oc{color: red;}
+.block-top{padding: 20px; width: 100%; background-color: #000000; display: flex; align-items: stretch;}
+.block{padding: 25px; width: 20%; text-align: center; color: #ffffff; font-size: 18pt;}
+.block1{height:33%; width: 33%; text-align: center; color: #000000; font-size: 18pt;}
+.center{padding: 20px; padding-top: 40px; height:8%; width: 100%; text-align: center; background-color: #D3D3D3; color: #ffffff; text-size: 34pt;}
+.block-center{padding-top: 40px; padding-bottom: 40px; height:150%; width: 100%; overflow: hidden; display: flex; flex-wrap: wrap; align-content: space-between;justify-content: space-between;}
+p{font-family: Times New Roman; font-size: 14pt; line-height: 1.5;}
+A{text-decoration: none;}
+*{margin: 0; padding: 0;}
+.aligncenter {text-align: center;}
+iframe{border: 0px;}
+.popup {
+  right: 0;
+  font-size: 14px;
+  width: 85%; 
+  height: 50%; 
+  min-width: 200px;  
+  max-width: 400px;  
+  position: fixed;
+  margin: 150px;
+  padding: 65px;
+  border: 1px solid #383838;
+  background: #fefefe;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  font: 14px/18px 'Tahoma', Arial, sans-serif;
+  -webkit-transform: translate(-50%, 1500%);
+  -ms-transform: translate(-50%, 1500%);
+  -o-transform: translate(-50%, 1500%);
+  transform: translate(-50%, 1500%);
+  transition-duration: 1s;
+  transition-delay: 0s, 1s;
+}
+
+.popup:target {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.close {
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  padding: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(233, 233, 233, 0.8);
+  text-align: center;
+  text-decoration: none;
+  font: 16px/21px 'Tahoma', Arial, sans-serif;
+  font-weight: 700;
+  border: 1px solid #ada9a9;
+}
+
+.close::before {
+  color: rgba(245, 5, 5, 0.9);
+  content: "X";
+  text-shadow: 0 -1px rgba(0, 0, 0, .9);
+  font-size: 11px;
+}
+
+</style>
+
+<body style="overflow-x: hidden;">
+<div class="block-top">
+<div class="block"><a href="Парфюмерия.html" style="color: white;">Парфюмерия</a></div>
+<div class="block"><a href="Гигиена.html" style="color: white;">Гигиена</a></div>
+<div><a href="index.html"><p class="aligncenter"><img src="image/logo.png" height="90%"></p></a></div>
+<div class="block"><a href="доставка.html" style="color: white;">Доставка</a></div>
+<div class="block"><a href="index.html#О нас" style="color: white;">О нас</a></div>
+</div>
+<div class="center"><p><b><big>ЖЕНСКАЯ ПАРФЮМЕРИЯ</big></p></div>
+<div class="block-center">
+<div class="block1"><a href="#1" style="color: black;"><p><img src="image/moschino.jpg" height="80%"></p><p>MOSCHINO toy 2 bubble gum<br><p>4 999 р.</p></a></div>
+<div class="popup animated" id="1">
+<b><center>MOSCHINO toy 2 bubble gum</b><br>
+Объём: 30 мл<br>
+Цена: 4 999 рублей<br>
+Туалетная вода TOY 2 BUBBLE GUM от MOSCHINO – это жизнерадостный и позитивный аромат для тех, кто хочет видеть жизнь в розовом цвете! Великолепную и многогранную розу окутывают игривые и насыщенные ноты жевательной резинки, одновременно сладкие и пряные. Вдохновляющую и бодрящую композицию, которая заставляет забыть о негативных эмоциях, дополняют засахаренные цитрусы в сочетании с сочным персиком и черной смородиной. Имбирь и корица придают аромату лёгкую остроту, а древесные ноты и нежный мускус делают его элегантным. Культовый флакон в виде плюшевого мишки стал розовым, и теперь TOY 2 раскрывает свои нежные объятия для всех, кто знает: розовый никогда не выйдет из моды!
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#2" style="color: black;"><p><img src="image/zielinski.jpg" height="80%"></p><p>ZIELINSKI & ROZEN black pepper & amber, neroli<br><p> 5 960 р.  <s> 7 450 р.</s><span class="text-oc">  -20%</span></p></a></div>
+<div class="popup animated" id="2">
+<b><center>ZIELINSKI & ROZEN black pepper & amber, neroli</b><br>
+Объём: 50 мл<br>
+Цена: 5 960 рублей (Цена без скидки: 7 450 рублей)<br>
+Описание запаха: цветочно-восточный, перечный Ароматы Zielinski & Rozen категории унисекс. Раскрываются по системе пирамиды, сначала ноты головы, потом ноты сердца и последними — базовые ноты, которые дольше всего сохраняются. Все ароматы созданы только из натуральных ингредиентов и в каждом их более 30. Стойкость — шесть и более часов на коже и более суток на тканях. Оставляют легкий шлейф. Вид нанесения: Спрей.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#3" style="color: black;"><p><img src="image/DG.jpg" height="80%"></p><p>DOLCE&GABBANA l’imperatrice eau de toilette<br><p>6 490 р.</p></a></div>
+<div class="popup animated" id="3">
+<b><center>DOLCE&GABBANA l’imperatrice eau de toilette</b><br>
+Объём: 50 мл<br>
+Цена: 6 490 рублей<br>
+Туалетная вода L'Imperatrice от DOLCE&GABBAN универсальна. Она одинаково хорошо сочетается как с дневным, так и с вечерним нарядом, подчеркивая яркую индивидуальность, неотразимость и безупречное чувство стиля своей обладательницы. Верхние ноты аромата раскрываются в роскошном сочетании аккордов экзотических фруктов и розовых цветов. Затем в ансамбль плавно вступают гармоничные ноты сердца, которые проявляются в легком и свежем звучании спелого арбуза и ягод киви. Нежный и чарующий базовый шлейф, сотканный из цветочно-пряных розовых цикламенов и мускуса, наполнит утонченный аромат бодрым, весенним настроением.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#4" style="color: black;"><p><img src="image/YSL.jpg" height="80%"></p><p>YVES SAINT LAURENT libre<br><p>11 749 р.</p></a></div>
+<div class="popup animated" id="4">
+<b><center>YVES SAINT LAURENT libre</b><br>
+Объём: 50 мл<br>
+Цена: 11 749 рублей<br>
+Парфюмерная вода Yves Saint Laurent Libre – это чувственный восточный аромат. Композиция раскрывается свежими аккордами мандарина и черной смородины, которые гармонично дополняют петитгрейн и лаванда. В сердце парфюмерной воды от Yves Saint Laurent искрятся ноты жасмина и апельсинового цвета, а в шлейфе нежно звучат сладкая ваниль, утонченный мускус, бархатистый кедр и амбра.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#5" style="color: black;"><p><img src="image/dior.jpg" height="80%"></p><p>DIOR miss dior rose'n'roses<br><p>6 200 р.</p></a></div>
+<div class="popup animated" id="5">
+<b><center>DIOR miss dior rose'n'roses</b><br>
+Объём: 30 мл<br>
+Цена: 6 200 рублей<br>
+Отройте для себя новый аромат Miss Dior Rose'n'Roses. Свежий вихрь разноцветных лепестков, бодрящая энергия цитрусовых нот. В сердце Miss Dior Rose N'Roses - вихрь пряных нот Грасской Розы. Её роскошные бутоны распускаются в мае на полях Грасса, принадлежащих эксклюзивным партнерам Дома Dior. Сборщицы урожая аккуратно срывают эти удивительные цветы, чтобы сохранить их качества.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#6" style="color: black;"><p><img src="image/lancome.jpg" height="80%"></p><p>LANCÔME la nuit tresor<br><p>9 000 р.</p></a></div>
+<div class="popup animated" id="6">
+<b><center>LANCÔME la nuit tresor</b><br>
+Объём: 30 мл<br>
+Цена: 9 000 рублей<br>
+Новый аромат La Nuit Tresor обладает невероятной силой обольщения и притяжения, его неразгаданная тайна манит и увлекает. В чарах этого аромата можно заблудиться, и словно настоящий афродизиак La Nuit Tresor влечет за собой, даря предчувствие наслаждения. Этот многогранный аромат сочетает в себе цветочные и древесные переливы чарующего восточного эликсира чувственной страсти и безграничной любви. Словно неведомое сокровище, рожденное в небесах и упавшее на землю, этот редчайший драгоценный камень – черный бриллиант- воплотился в роскошном и манящем аромате. Сладкая и пьянящая Роза, ванильные переливы Таитянской Орхидеи и редкие дымные ароматы Ладана и Папируса увлекают в круговорот вспыхнувших чувств и мечтаний. Столь волнующий и дурманящий аромат влечет неведомой силой афродизиака, ему невозможно противостоять.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#7" style="color: black;"><p><img src="image/maison.jpg" height="80%"></p><p>MAISON FRANCIS KURKDJIAN baccarat rouge 540<br><p>27 500 р.</p></a></div>
+<div class="popup animated" id="7">
+<b><center>MAISON FRANCIS KURKDJIAN baccarat rouge 540</b><br>
+Объём: 70 мл<br>
+Цена: 27 500 рублей<br>
+Магический альянс Природы и Человека, который трансформирует сырьё в осязаемые элементы. Абсолютное единение человеческого мастерства, природного минерала и огня. Таким образом родился аромат Baccarat Rouge 540, лаконичный и в то же время графичный ольфактивный автограф. Изысканная и яркая парфюмерная вода с цветочно-амбровыми и древесными оттенками.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#8" style="color: black;"><p><img src="image/tom ford.jpg" height="80%"></p><p>TOM FORD lost cherry<br><p>23 000 р.</p></a></div>
+<div class="popup animated" id="8">
+<b><center>TOM FORD lost cherry</b><br>
+Объём: 50 мл<br>
+Цена: 23 000 рублей<br>
+Насыщенный и изысканный амбровый аромат Lost Cherry пронизан контрастами. Насыщенный шлейф из чувственных нот перуанского бальзама, обжаренных бобов тонка, сандалового дерева, ветивера и кедра. Основные ноты: Черешня, масло горького миндаля, сироп из вишни «гриот», турецкая роза, перуанский бальзам и обжаренные бобы тонка.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#9" style="color: black;"><p><img src="image/montale.jpg" height="80%"></p><p>MONTALE wood & spices<br><p> 7 800 р.  <s> 10 400 р.</s><span class="text-oc">  -25%</span></p></a></div>
+<div class="popup animated" id="9">
+<b><center>MONTALE wood & spices</b><br>
+Объём: 50 мл<br>
+Цена: 7 800 рублей (Цена без скидки: 10 400 рублей)<br>
+Montale Wood Spices - аура превосходства. Самая ключевая специя в этом импозантном творении - Кардамон. Разбавляет смолянистый букет эвкалиптовой свежестью и лимонной кислинкой. Базовая и самая ощутимая нота парфюма - Ладан. Когда верхушка растворяется, он начинает явно доминировать над остальной пирамидой. Запах протяжный, сладковато-пряный, очень густой с бальзамическим оттенком.
+<a class="close" href="#close"></a>
+</div>
+</div>
+<iframe src="link.html" width="100%" height="180" scrolling="no"></iframe>
+</body>
+</html>
