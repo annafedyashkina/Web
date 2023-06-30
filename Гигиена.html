@@ -1,0 +1,167 @@
+<html>
+<style>
+.text-oc{color: red;}
+.block-top{padding: 20px; width: 100%; background-color: #000000; display: flex; align-items: stretch;}
+.block{padding: 25px; width: 20%; text-align: center; color: #ffffff; font-size: 18pt;}
+.block1{height:33%; width: 33%; text-align: center; color: #000000; font-size: 18pt;}
+.block-center{padding-top: 40px; padding-bottom: 40px; height:150%; width: 100%; overflow: hidden; display: flex; flex-wrap: wrap; align-content: space-between;justify-content: space-between;}
+.center{padding: 20px; padding-top: 40px; height:8%; width: 100%; text-align: center; background-color: #D3D3D3; color: #ffffff; text-size: 34pt;}
+p{font-family: Times New Roman; font-size: 14pt; line-height: 1.5;}
+*{margin: 0; padding: 0;}
+A{text-decoration: none;}
+.aligncenter {text-align: center;}
+iframe{border: 0px;}
+.popup {
+  right: 0;
+  font-size: 14px;
+  z-index: 999;
+  width: 85%;
+  height: 50%;   
+  min-width: 200px;  
+  max-width: 400px;  
+  position: fixed;
+  margin: 150px;
+  padding: 55px;
+  border: 1px solid #383838;
+  background: #fefefe;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  font: 14px/18px 'Tahoma', Arial, sans-serif;
+  -webkit-transform: translate(-50%, 1500%);
+  -ms-transform: translate(-50%, 1500%);
+  -o-transform: translate(-50%, 1500%);
+  transform: translate(-50%, 1500%);
+  transition-duration: 1s;
+  transition-delay: 0s, 1s;
+}
+
+.popup:target {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.close {
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  padding: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(233, 233, 233, 0.8);
+  text-align: center;
+  text-decoration: none;
+  font: 16px/21px 'Tahoma', Arial, sans-serif;
+  font-weight: 700;
+  border: 1px solid #ada9a9;
+}
+
+.close::before {
+  color: rgba(245, 5, 5, 0.9);
+  content: "X";
+  text-shadow: 0 -1px rgba(0, 0, 0, .9);
+  font-size: 11px;
+}
+
+</style>
+
+<body style="overflow-x: hidden;">
+<div class="block-top">
+<div class="block"><a href="Парфюмерия.html" style="color: white;">Парфюмерия</a></div>
+<div class="block"><a href="Гигиена.html" style="color: white;">Гигиена</a></div>
+<div><a href="index.html"><p class="aligncenter"><img src="image/logo.png" height="90%"></p></a></div>
+<div class="block"><a href="доставка.html" style="color: white;">Доставка</a></div>
+<div class="block"><a href="index.html#О нас" style="color: white;">О нас</a></div>
+</div>
+<div class="center"><p><b><big>ГИГИЕНА</big></p></div>
+<div class="block-center">
+<div class="block1"><a href="#1" style="color: black;"><p><img src="image/щетка.jpg" height="75%"></p><p>Бамбуковая зубная щетка с черной щетиной средней жесткости<br><p>150 р.</p></a></div>
+<div class="popup animated" id="1">
+<b><center>Бамбуковая зубная щетка с черной щетиной средней жесткости из биоразлагаемого полимера и волокон бамбука, обработанная углем </b><br>
+Количество: 1 шт<br>
+Цена: 150 рублей<br>
+Бамбук является природным антисептиком. Он не впитывает влагу, не плесневеет, бактерии в нем не размножаются и эти качества делают его идеальным материалом для зубных щеток. Кроме того, бамбуковая зубная щетка не загрязняет природу ни на этапе производства, ни после того, как отслужит свой срок!
+В процессе производства используются натуральные антисептики из активированного угля и бамбука. Многократная обработка углем наделяет ворс щеток способностью поглощать вредные частицы, избавляя от неприятного запаха изо рта.
+Особенность конструкции позволяет массажировать десна, а мягкие ворсинки не травмируют чувствительную эмаль зубов.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#2" style="color: black;"><p><img src="image/паста.jpg" height="75%"></p><p>Зубная паста PERIOE whitening pumping toothpaste<br><p> 400 р.  <s> 800 р.</s><span class="text-oc">  -50%</span></p></a></div>
+<div class="popup animated" id="2">
+<b><center>Зубная паста PERIOE whitening pumping toothpaste</b><br>
+Объём: 285 мл<br>
+Цена: 400 рублей (Цена без скидки: 800 рублей)<br>
+Зубная паста Perioe Whitening Pumping Toothpaste со свежим цитрусовым вкусом бережно отбеливает Ваши зубы и отлично защищает от кариеса. Зубная паста выпускается в форме нежного геля, который мягко обволакивает всю полость рта и тщательно очищает каждый зуб. Whitening Pumping Toothpaste выпускается в необычном виде — продукт помещается в удобный флакон, имеющий оригинальную форму и удобный дозатор, благодаря чему достигается экономия средства. Perioe станет отличным дополнением в интерьере Вашей ванной комнаты — стильный дизайн упаковки позволит вписаться в любой дизайн.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#3" style="color: black;"><p><img src="image/нить.jpg" height="75%"></p><p>Зубная нить REVYLINE ptfe black edition<br><p>350 р.</p></a></div>
+<div class="popup animated" id="3">
+<b><center>Зубная нить REVYLINE ptfe black edition</b><br>
+Количество: 1 шт<br>
+Цена: 350 рублей <br>
+Нить изготовлена из прочного вощеного материала тефлона — искусственного полимерного волокна высокого класса на основе фторопласта. Основные свойства тефлона — высокая прочность и эластичность. При использовании нить не рвется, не волокнится, удобно наматывается на палец.Нить имеет плоскую форму, которая позволяет очищать боковые зубные поверхности при узких промежутках и обеспечивает более эффективную чистку, чем нити с округлой формой.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#4" style="color: black;"><p><img src="image/ogx.jpg" height="75%"></p><p>Шампунь для волос OGX с кокосовым молоком<br><p> 750 р.  <s> 1 250 р.</s><span class="text-oc">  -40%</span></p></a></div>
+<div class="popup animated" id="4">
+<b><center>Питательный шампунь для волос OGX с кокосовым молоком</b><br>
+Объём: 385 мл<br>
+Цена: 750 рублей (Цена без скидки: 1 250 рублей)<br>
+Питательный шампунь OGX® с кокосовым молоком мягко удаляет загрязнения и питает волосы, делая их мягкими и послушными. В состав этого кремообразного шампуня входят кокосовое молоко и масло, а также яичный протеин. Экзотическая формула придает волосам естественную силу, увлажняя их и делая более эластичными. Шампунь OGX® мягко удаляет загрязнения и питает волосы, делая их мягкими и послушными. Он обладает потрясающим ароматом, который помогает погрузиться в мир удовольствия и наслаждения.
+Шампунь для сухих, пористых и окрашенных волос. Подходит для волос с секущимися кончиками. Не содержит сульфаты и парабены.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#5" style="color: black;"><p><img src="image/kerasys.jpg" height="75%"></p><p>Мужской шампунь для волос KERASYS refreshing shampoo for men<br><p> 990 р.  <s> 1 100 р.</s><span class="text-oc">  -10%</span></p></a></div>
+<div class="popup animated" id="5">
+<b><center>KERASYS refreshing shampoo for men</b><br>
+Объём: 550 мл<br>
+Цена: 990 рублей (Цена без скидки: 1 100 рублей)<br>
+<a class="close" href="#close"></a>
+Специально разработанная формула для мужских волос. Эффективно удаляет с волос загрязнения, пот, неприятный запах. Натуральный экстракт мяты дарит приятное чувство прохлады и заряжает энергией. Создает хорошую основу для стайлинга. Kerasys – это линия средств профессионального уровня для ухода за различными типами волос в домашних условиях.
+</div>
+<div class="block1"><a href="#6" style="color: black;"><p><img src="image/ecolatier.jpg" height="75%"></p><p>Шампунь 2 В 1 "Легкое расчесывание" ECOLATIER baby 3+<br><p>240 р.</p></a></div>
+<div class="popup animated" id="6">
+<b><center>Шампунь 2 В 1 "ЛЕГКОЕ РАСЧЕСЫВАНИЕ" ECOLATIER baby 3+</b><br>
+Объём: 250 мл<br>
+Цена: 240 рублей <br>
+Детский шампунь 2 в 1 бережно очищает волосы и кожу малыша. Смягчает волосы, помогает расчесать непослушные локоны. Чистая натуральная формула разработана для минимизации риска аллергических реакций, не содержит ингредиенты, о которых стоит беспокоится. Имеет сбалансированный pH, не раздражает глазки и не сушит кожу малыша. Экстракт хлопка идеально подходит для ухода за самой чувствительной кожей, питает и смягчает ее. Молочная кислота поддерживает естественный защитный уровень рН кожи малыша.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#7" style="color: black;"><p><img src="image/крем.png" height="75%"></p><p>Крем для рук PLANETA ORGANICA coconut<br><p>170 р.</p></a></div>
+<div class="popup animated" id="7">
+<b><center>Крем для рук PLANETA ORGANICA coconut</b><br>
+Объём: 75 мл<br>
+Цена: 170 рублей <br>
+Крем для рук Organic coconut создан специально для мгновенного увлажнения и гладкости кожи.
+Кокосы обладают удивительной способностью очищать воду, поэтому они являются природным фильтром. Ореху требуется 9 месяцев, чтобы очистить литр воды внутри своей оболочки. В результате получается чистая минеральная кокосовая вода.
+Bio-масло кокоса наполняет кожу живительной влагой, устраняет чувство сухости, делает кожу молодой и бархатистой.
+Bio-экстракт лотоса насыщает кожу антиоксидантами и увлажняет кутикулу, придавая ей ухоженный вид.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#8" style="color: black;"><p><img src="image/гель.jpg" height="75%"></p><p>Гель для душа L'OCCITANE cherry blossom<br><p>1 600 р.</p></a></div>
+<div class="popup animated" id="8">
+<b><center>Гель для душа L'OCCITANE cherry blossom</b><br>
+Объём: 250 мл<br>
+Цена: 1 600 рублей <br>
+Гель с удивительным женственно-цветочным ароматом. В состав геля входят деликатные компоненты, которые смягчают и питают даже самую чувствительную кожу, а также наполняют ванную комнату нежным ароматом. L'OCCITANE использует вишню из Люберона. Получаемый экстракт насыщен фруктовыми альфа-гидроксикислотами и сахарами. Поэтому он обладает увлажняющими и смягчающими свойствами.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#9" style="color: black;"><p><img src="image/салфетки.jpeg" height="75%"></p><p>Салфетки влажные YOKOSUN baby wet wipes<br><p>170 р.</p></a></div>
+<div class="popup animated" id="9">
+<b><center>Влажные салфетки YOKOSUN baby wet wipes</b><br>
+Количество: 1 шт<br>
+Цена: 170 рублей <br>
+Универсальные детские влажные салфетки. Подходят для чувствительной кожи новорожденных, 3D текстура позволяет мягко и эффективно удалять загрязнения. Без содержания спирта, гипоаллергенные, без ароматизаторов и отдушек, PH 5.5, что так важно для детской кожи. Делают ежедневную гигиену в любых условиях значительно комфортнее. Незаменимы при смене подгузника на прогулке, в путешествиях, в поликлинике.
+<a class="close" href="#close"></a>
+</div>
+</div>
+<iframe src="link.html" width="100%" height="180" scrolling="no"></iframe>
+</body>
+</html>
