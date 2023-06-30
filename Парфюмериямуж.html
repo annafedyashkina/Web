@@ -1,0 +1,161 @@
+<html>
+<style>
+.text-oc{color: red;}
+.block-top{padding: 20px; width: 100%; background-color: #000000; display: flex; align-items: stretch;}
+.block{padding: 25px; width: 20%; text-align: center; color: #ffffff; font-size: 18pt;}
+.block1{height:33%; width: 33%; text-align: center; color: #000000; font-size: 18pt;}
+.block-center{padding-top: 40px; padding-bottom: 40px; height:150%; width: 100%; overflow: hidden; display: flex; flex-wrap: wrap; align-content: space-between;justify-content: space-between;}
+.center{padding: 20px; padding-top: 40px; height:8%; width: 100%; text-align: center; background-color: #D3D3D3; color: #ffffff; text-size: 34pt;}
+p{font-family: Times New Roman; font-size: 14pt; line-height: 1.5;}
+*{margin: 0; padding: 0;}
+A{text-decoration: none;}
+.aligncenter {text-align: center;}
+iframe{border: 0px;}
+.popup {
+  right: 0;
+  font-size: 14px;
+  z-index: 999;
+  width: 85%;
+  height: 50%;   
+  min-width: 200px;  
+  max-width: 400px;  
+  position: fixed;
+  margin: 150px;
+  padding: 55px;
+  border: 1px solid #383838;
+  background: #fefefe;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  font: 14px/18px 'Tahoma', Arial, sans-serif;
+  -webkit-transform: translate(-50%, 1500%);
+  -ms-transform: translate(-50%, 1500%);
+  -o-transform: translate(-50%, 1500%);
+  transform: translate(-50%, 1500%);
+  transition-duration: 1s;
+  transition-delay: 0s, 1s;
+}
+
+.popup:target {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.close {
+  top: 10px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  padding: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(233, 233, 233, 0.8);
+  text-align: center;
+  text-decoration: none;
+  font: 16px/21px 'Tahoma', Arial, sans-serif;
+  font-weight: 700;
+  border: 1px solid #ada9a9;
+}
+
+.close::before {
+  color: rgba(245, 5, 5, 0.9);
+  content: "X";
+  text-shadow: 0 -1px rgba(0, 0, 0, .9);
+  font-size: 11px;
+}
+
+</style>
+
+<body style="overflow-x: hidden;">
+<div class="block-top">
+<div class="block"><a href="Парфюмерия.html" style="color: white;">Парфюмерия</a></div>
+<div class="block"><a href="Гигиена.html" style="color: white;">Гигиена</a></div>
+<div><a href="index.html"><p class="aligncenter"><img src="image/logo.png" height="90%"></p></a></div>
+<div class="block"><a href="доставка.html" style="color: white;">Доставка</a></div>
+<div class="block"><a href="index.html#О нас" style="color: white;">О нас</a></div>
+</div>
+<div class="center"><p><b><big>МУЖСКАЯ ПАРФЮМЕРИЯ</big></p></div>
+<div class="block-center">
+<div class="block1"><a href="#1" style="color: black;"><p><img src="image/kenzo.jpg" height="80%"></p><p>KENZO l'eau kenzo pour homme<br><p>5 990 р.</p></a></div>
+<div class="popup animated" id="1">
+<b><center>KENZO l'eau kenzo pour homme</b><br>
+Объём: 50 мл<br>
+Цена: 5 990 рублей<br>
+Культовый аромат L’EAU KENZO - легендарная свежесть теперь в новом дизайне. Вдохновленный природой L’EAU KENZO объединяет в себе аромат фруктов, свежести и счастья. Океаническая цитрусовая композиция, созданная Оливье Креспом, построена вокруг листьев лотоса, переплетённых со свежестью цедры юзу, мяты и древесными нотами кедра. Прозрачный флакон L’EAU KENZO напоминает один из жизненно важных природных элементов – воду: вертикальный дизайн подчёркивает её монументальную силу, а изгибы напоминают волны на её поверхности. В своём стремлении делать мир прекрасней KENZO PARFUMS внедряет новые, экологичные подходы к своей работе: флакон L’EAU KENZO на 15% состоит из переработанного стекла, упаковка изготовлена из картона, полученного из экологически чистых источников и имеющего сертификат FSC® (Forest Stewardship Council®), печать произведена биочернилами. 
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#2" style="color: black;"><p><img src="image/yslм.jpg" height="80%"></p><p>YVES SAINT LAURENT l'homme cologne bleue<br><p>9 000 р.</p></a></div>
+<div class="popup animated" id="2">
+<b><center>YVES SAINT LAURENT l'homme cologne bleue</b><br>
+Объём: 100 мл<br>
+Цена: 9 000 рублей<br>
+Новая океаническая версия аромата L’Homme от Yves Saint Laurent. Восхитительная свежесть пробуждает чувства с первого погружения в аромат. Терпкие ноты красного апельсина, мандарина и бергамота сочетаются с будоражащей прохладой и глубиной морского аккорда. Черный перец и кардамон придают композиции чувственность и мужественный характер.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#3" style="color: black;"><p><img src="image/diorм.jpg" height="80%"></p><p>DIOR dior homme cologne<br><p> 10 150 р.  <s> 14 500 р.</s><span class="text-oc">  -30%</span></p></a></div>
+<div class="popup animated" id="3">
+<b><center>DIOR dior homme cologne</b><br>
+Объём: 125 мл<br>
+Цена: 10 150 рублей (Цена без скидки: 14 500 рублей)<br>
+Вчерашняя революция сегодня стала великой классикой. Абсолютная современность... Вневременная элегантность свежего, зрелого и утонченного цитрусового звучания. Тонкий баланс между калабрийским Бергамотом эксклюзивных урожаев, цветочным оттенком Гедиона и мощной нотой Шипра.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#4" style="color: black;"><p><img src="image/zielinski.jpg" height="80%"></p><p>ZIELINSKI & ROZEN black pepper & amber, neroli<br><p> 5 960 р.  <s> 7 450 р.</s><span class="text-oc">  -20%</span></p></a></div>
+<div class="popup animated" id="4">
+<b><center>ZIELINSKI & ROZEN black pepper & amber, neroli</b><br>
+Объём: 50 мл<br>
+Цена: 5 960 рублей (Цена без скидки: 7 450 рублей)<br>
+Описание запаха: цветочно-восточный, перечный Ароматы Zielinski & Rozen категории унисекс. Раскрываются по системе пирамиды, сначала ноты головы, потом ноты сердца и последними — базовые ноты, которые дольше всего сохраняются. Все ароматы созданы только из натуральных ингредиентов и в каждом их более 30. Стойкость — шесть и более часов на коже и более суток на тканях. Оставляют легкий шлейф. Вид нанесения: Спрей.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#5" style="color: black;"><p><img src="image/minnewyork.jpg" height="80%"></p><p>MIN NEW YORK dune road<br><p> 4 500 р.  <s> 6 000 р.</s><span class="text-oc">  -25%</span></p></a></div>
+<div class="popup animated" id="5">
+<b><center>MIN NEW YORK dune road</b><br>
+Объём: 15 мл<br>
+Цена: 4 500 рублей (Цена без скидки: 6 000 рублей)<br>
+Летняя прогулка вдоль побережья. Свежий морской бриз. Пена волны накрывает песок. Слышны только шёпот трав, полевых цветов и шум прибоя. В воздухе – аромат влажной древесины, моря, водорослей и соли. С ними сливаются ноты полыни и кардамона, в базе звучат ветивер, кедр и мускус. Dune Road от MiN NEW YORK – это свежий и манящий аромат неуловимых, призрачных удовольствий.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#6" style="color: black;"><p><img src="image/hugo.jpg" height="80%"></p><p>HUGO BOSS boss bottled<br><p>6 000 р.</p></a></div>
+<div class="popup animated" id="6">
+<b><center>HUGO BOSS boss bottled</b><br>
+Объём: 30 мл<br>
+Цена: 6 000 рублей<br>
+Стойкий и современный BOSS Bottled — это легендарная классика в аккуратном и строгом флаконе, прекрасное воплощение стиля BOSS. Яркий аромат со свежими и чувственными нотами подчеркивает индивидуальность и изысканность вашего образа и воплощает в себе радость жизни. Аромат герани с едва различимым оттенком гвоздики преобладает над теплыми, пряно-цветочными сердечными нотами, уравновешивая свежую фруктовую верхнюю ноту. Базовая нота решительно мужская — это пульсирующая гармония сандалового дерева, кедра и ветивера. BOSS Bottled — это классика, которая всегда остается актуальной.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#7" style="color: black;"><p><img src="image/gio.jpg" height="80%"></p><p>GIORGIO ARMANI acqua di gio homme<br><p>7 000 р.</p></a></div>
+<div class="popup animated" id="7">
+<b><center>GIORGIO ARMANI acqua di gio homme</b><br>
+Объём: 50 мл<br>
+Цена: 7 000 рублей <br>
+Освежающий и чувственный Acqua di Giò Pour Homme от Giorgio Armani – бестселлер среди мужских ароматов. На его создание в 1996 модельера вдохновил вулканический ландшафт острова в сочетании с морским бризом и ласковыми солнцем. Вначале свежий аромат раскрывается всплеском цитрусового ансамбля из апельсина, лайма, мандарина, лимона с мягким оттенком жасмина. Постепенно проявляется ядро из сладковато- пряной композиции, включающей нотки цикламена, мускатного ореха, резеды, кориандра, спелого персика. База аромата состоит из продлевающих звучание средних нот амбры, дубового мха, белого кедра и белого мускуса.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#8" style="color: black;"><p><img src="image/tom fordм.jpg" height="80%"></p><p>TOM FORD grey vetiver<br><p>11 000 р.</p></a></div>
+<div class="popup animated" id="8">
+<b><center>TOM FORD grey vetiver</b><br>
+Объём: 50 мл<br>
+Цена: 11 000 рублей <br>
+Стойкий аромат, прекрасно ложащийся на кожу, обладает ярким шлейфом, который ненавязчиво сопровождает в течение дня. Композиция букета от Tom Ford узнается в начальных нотах фруктов – апельсинового цвета, грейпфрута. В сердце композиции звучат оригинальное сочетание корня ириса, красного перца и пряного мускатного ореха. Завершают букет сочные древесные ноты, ароматы дубового мха, амбры. Главенствующими нотами над всем ароматом Grey Vetiver выступает загадочный ветивер, прохладные оттенки которого, окружают приятной дымкой. Вода станет прекрасным спутником для мужчин, ценящих свою уникальность и подчеркивающих свою мужественность.
+<a class="close" href="#close"></a>
+</div>
+<div class="block1"><a href="#9" style="color: black;"><p><img src="image/sisley.jpg" height="80%"></p><p>SISLEY eau de toilette eau de campagne<br><p>8 300 р.</p></a></div>
+<div class="popup animated" id="9">
+<b><center>SISLEY eau de toilette eau de campagne</b><br>
+Объём: 50 мл<br>
+Цена: 8 300 рублей <br>
+Туалетная вода Sisley Eau de Toilette Eau de Campagne обладает свежим, с тонкими нотками зелени ароматом. Природная композиция этой туалетной воды даст возможность ощутить каждому, что значит искусство жизни по-французски. Eau de Toilette Eau de Campagne – это гармоничное сочетание цитрусовых нот и незабываемого шипрового аромата, которое подарит вам удивительное чувство изысканности. Туалетная вода от Sisley состоит из запахов базилика, различных трав и лимона. Цитрусовые нотки этой композиции идеально дополняют ароматы зелёных листьев томата, жасмина, ландыша и герани. Шлейф этой туалетной воды даст почувствовать свежесть лесного аромата, в который входит дубовый мох, мускус и пачули.
+<a class="close" href="#close"></a>
+</div>
+</div>
+<iframe src="link.html" width="100%" height="180" scrolling="no"></iframe>
+</body>
+</html>
